@@ -1,0 +1,9 @@
+{
+    "whitelist":
+    {
+        "TrackerCSRT": ["create", "setInitialMask"],
+        "TrackerCSRT_Params": [],
+        "TrackerKCF": ["create"],
+        "TrackerKCF_Params": []
+    }
+}

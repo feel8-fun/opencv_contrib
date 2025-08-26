@@ -9,7 +9,7 @@ ocv_define_module(tracking
     opencv_imgproc
     opencv_core
     opencv_video
-    opencv_plot  # samples only
+    # opencv_plot  # samples only
     ${debug_modules}
     OPTIONAL
       opencv_dnn
@@ -19,6 +19,7 @@ ocv_define_module(tracking
       java
       python
       objc
+      js
 )
 
 ocv_warnings_disable(CMAKE_CXX_FLAGS -Wno-shadow /wd4458)
